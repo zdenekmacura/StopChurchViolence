@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">církevní násilí</string>
+    <string name="display_contact">Zobrazit Kontakty</string>
+    <string name="text_edit_id">edit%s</string>
+    <style name="CustomCheckBox">
+	<item name="android:textSize">19sp</item>
+	<item name="android:layout_marginLeft">5dp</item>
+	<item name="android:onClick">setEditTextVisibility</item>
+    <item name="android:paddingLeft">20dip</item>
+    <item name="android:paddingRight">2dip</item>
+    <item name="android:layout_margin">14dip</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+	<item name="android:button">@drawable/custom_checkbox_design</item>
+    </style>
+    <style name="CustomQuestionImage"> 
+	<item name="android:layout_width">12dp</item>
+	<item name="android:layout_height">17dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:id">@+id/imageView</item>
+    <item name="android:src">@drawable/question</item>
+    </style>
+  <style name="CustomEditText"> 
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+	<item name="android:background">#FFD</item>
+    <item name="android:layout_marginLeft">5dp</item>
+	<item name="android:layout_marginRight">5dp</item>
+	<item name="android:textSize">16sp</item>
+	<item name="android:inputType">textMultiLine</item>
+	<item name="android:visibility">gone</item>
+	<item name="android:completionThreshold">1</item>
+	<item name="android:dropDownWidth">fill_parent</item>
+	<item name="android:dropDownHeight">300dp</item>
+	<item name="android:hint">Vyber</item>
+	<item name="android:paddingLeft">5dip</item>
+	<item name="android:minHeight">40dip</item> 
+    </style>
+    <style name="LayoutStyle">
+    <item name="android:layout_width">match_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:orientation">vertical</item>
+    </style>
+    <style name="LayoutTypeStyle">
+    <item name="android:layout_width">match_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:orientation">vertical</item>
+	<item name="android:layout_margin">12dip</item>
+	<item name="android:background">#111111</item>
+    </style>
+    <style name="Category">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">20sp</item>
+	<item name="android:textColor">#FF0000</item>
+	<item name="android:padding">5dp</item>
+	<item name="android:layout_gravity">center_horizontal</item>
+    </style>
+     
+     <string-array name="editzastraseni">
+      <item >Zastrašování, že když nebudou poslouchat vedoucího, předtavitele cirkve, tak budou mít hřích</item>
+      </string-array>
+      
+      <string-array name="editposlusnost">
+      <item >Nucení lidí platit desátky pomocí vyvolávání pocitů viny</item>
+      <item >Nucení lidí, aby lidi nechodili pozdě na schromáždění</item>
+      </string-array>
+      
+      <string-array name="editvyhruzka">
+      <item >Vyhrožování, že když nebudou platit desátky, tak se jim nebude dařit</item>
+      </string-array>
+
+      <string-array name="editpomlouvani">
+      <item >Pomlouvání lidí, kteří odešli z církce</item>
+      </string-array>
+
+      <string-array name="editpodezirani">
+      <item >Sbírám příklady</item>
+      </string-array>
+
+
+      
+      <string-array name="editurazky">
+      <item >Například urážky vůči lidem, kteří nejsou stáli čenové v jedné církvi a nsvštěvují různé církve a hledají</item>
+      </string-array>
+      
+      <string-array name="editponizovani">
+      <item >Sbirám příklady... </item>
+      </string-array>
+      
+      <string-array name="editviny">
+      <item >Vyvolávání pocitů viny, když nedají peníze na sbírku</item>
+      <item >Vyvolávání pocitů viny, když člověk něchodí nikde do církve</item>
+
+      </string-array>
+      
+      <string-array name="editobvinovani">
+      <item>Sbírám příklady ....</item>
+
+      </string-array>
+      
+      <string-array name="editkontrola">
+      <item >kontrola nových přichozích otázkami: Chodíte někde do církve? </item>
+      <item >kontrola nových přichozích otázkami: V které církvi jsi uvěřil(a)? </item>
+      <item >kontrola nových přichozích otázkami: Kdo tě poktřtil(a)? </item>
+      <item >kontrola nových přichozích otázkami: Přijal jsi Ježíše? </item>
+      </string-array>
+      
+      <string-array name="editvycitky">
+      <item >Výčitka, že člověk nikde pravidelně nechodí do církve</item>
+      <item >Výčitka, že člověk neplatí desátky</item>
+      </string-array>
+
+      <string-array name="editsmichutrpeni">
+      <item >Smějou se lidem, kteří mají jiný názor</item>
+      </string-array>
+</resources>
