@@ -1,1 +1,2 @@
 # StopChurchViolence
+Stop Církevnímu násilí - aplikace je teprve v úplných začátcích a obsahuje jen pár údajů. Naprosto u všech církví, aniž by si to jejich členové museli uvědomovat se nacházejí v měnší či větší míře projevy zejména psychického násilí, manipulací a zákeřných mocenských technik. Tato aplikace má na toto upozornit a varovat lidi před insticionálními církvemi a jejich představiteli, či nejrůznějšímu vedoucími pracovníky.
